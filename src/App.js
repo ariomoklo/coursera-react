@@ -1,8 +1,14 @@
-import './App.css';
+import "./App.css";
+import { Navbar, Header, Main, Footer } from "./components/navbar/navbar";
 
 function App() {
   return (
-    <h1>Hello Worlds</h1>
+    <>
+      <Navbar />
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
