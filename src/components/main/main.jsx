@@ -1,11 +1,19 @@
 import React from "react";
-import './main.css';
-// import { AppWrap } from "../../wrapper";
+import './Main.css';
+import Specials from "./Specials/Specials";
+import Testimonials from './Testimonials/Testimonials';
+import About from  './About/About';
 
 export default function Main() {
-    return (<main>Main
-        <div>Specilas</div>
-        <div>Testimonials</div>
-        <div>Little Lemon</div>
-    </main>);
+
+    return (
+    <>
+    {/* <Header data = { data.type } /> */}
+    <main>
+        <Specials />
+        <Testimonials />
+        <About />
+    </main>
+    </>
+    );
 }
