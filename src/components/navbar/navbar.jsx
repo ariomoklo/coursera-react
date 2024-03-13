@@ -1,4 +1,5 @@
 import React from "react";
+import './navbar.css';
 import { images } from '../../constants';
 
 export default function Navbar() {
